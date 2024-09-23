@@ -1,0 +1,9 @@
+launch:
+  - node:
+      pkg: "dofbot"
+      exec: "dofbot"
+      name: "dofbot"
+      namespace: "replastic"
+      param:
+        - name: "robot_description"
+          value: "$(command urdf/robot.urdf"

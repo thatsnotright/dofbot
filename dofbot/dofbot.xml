@@ -1,0 +1,5 @@
+<library path="dofbot_arm">
+  <class name="dofbot::DofbotServo" base_class_type="hardware_interface::ActuatorInterface" type="dofbot::DofbotServo">
+    <description>DOFBOT Servo</description>
+  </class>
+</library>
